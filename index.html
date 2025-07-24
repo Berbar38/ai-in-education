@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>الذكاء الاصطناعي في التعليم</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <!-- خط أميري -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet"/>
+    <!-- أيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<!-- شريط التنقل -->
+<header>
+    <nav>
+        <div class="logo">AI Edu</div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#articles">مقالات ودراسات</a></li>
+            <li><a href="#tools">أدوات وتطبيقات</a></li>
+            <li><a href="#courses">الدورات التدريبية</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+        <div class="controls">
+            <button id="langBtn" title="English">EN</button>
+            <button id="darkBtn" title="الوضع الليلي"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </nav>
+</header>
+
+<!-- محرك البحث الثابت -->
+<div id="searchBar">
+    <input type="search" placeholder="ابحث داخل الموقع..." />
+    <button><i class="fa-solid fa-search"></i></button>
+</div>
+
+<!-- الصفحة الرئيسية -->
+<section id="home">
+    <div class="hero">
+        <h1>الذكاء الاصطناعي في التعليم</h1>
+        <p class="tagline">
+            منصة معرفية تستكشف أحدث تقنيات الذكاء الاصطناعي وتطبيقاتها في المجال التربوي، موجهة للباحثين، المعلمين، والطلاب.
+        </p>
+        <a href="#articles" class="cta">استكشف أحدث المقالات</a>
+    </div>
+
+    <div class="features">
+        <article>
+            <i class="fa-solid fa-robot"></i>
+            <h3>تطبيقات عملية</h3>
+            <p>اكتشف أدوات تُحدث ثورة في الفصول الدراسية.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-brain"></i>
+            <h3>أبحاث موثوقة</h3>
+            <p>اطّلع على دراسات علمية حديثة حول أخلاقيات الذكاء الاصطناعي.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>دورات مجانية</h3>
+            <p>تعلّم أساسيات الـ AI في التعليم عبر فيديوهات تفاعلية.</p>
+        </article>
+    </div>
+</section>
+
+<!-- من نحن -->
+<section id="about">
+    <h2>من نحن</h2>
+    <p>
+        نحن فريق متعدد التخصصات من الباحثين والمطوّرين المهتمين بدمج التقنيات الذكية في التعليم. رسالتنا نشر المعرفة الموثوقة وبناء جسور بين البحث الأكاديمي والتطبيق المدرسي.
+    </p>
+    <ul class="vision">
+        <li>تعزيز ثقافة استخدام الذكاء الاصطناعي بأخلاقياته.</li>
+        <li>تمكين المعلم من أدوات تساعده على التخصيص الذكي للتعلم.</li>
+        <li>إنشاء مجتمع تواصلي بين الباحثين والممارسين.</li>
+    </ul>
+</section>
+
+<!-- مقالات ودراسات -->
+<section id="articles">
+    <h2>مقالات ودراسات</h2>
+    <div class="filters">
+        <button class="filter active" data-filter="all">الكل</button>
+        <button class="filter" data-filter="apps">تطبيقات</button>
+        <button class="filter" data-filter="ethics">أخلاقيات</button>
+        <button class="filter" data-filter="future">مستقبل التعليم</button>
+    </div>
+    <div class="grid">
+        <article class="card apps">
+            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=600&q=60" alt="">
+            <h3>استخدام ChatGPT في تصميم الواجبات</h3>
+            <p>كيف يمكن للمعلمين توظيف ChatGPT لتوليد واجبات مخصّصة تناسب مستويات الطلاب المختلفة.</p>
+        </article>
+        <article class="card ethics">
+            <img src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?auto=format&fit=crop&w=600&q=60" alt="">
+            <h3>الخصوصية في أدوات التعليم الذكية</h3>
+            <p>تحليل قانوني وأخلاقي للبيانات التي تجمعها أدوات التعلم الآلي.</p>
+        </article>
+        <article class="card future">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=60" alt="">
+            <h3>الفصول الافتراضية المستقبلية</h3>
+            <p>رؤية استشرافية لكيفية تحوّل الفصول الدراسية خلال العقد القادم.</p>
+        </article>
+    </div>
+</section>
+
+<!-- أدوات وتطبيقات -->
+<section id="tools">
+    <h2>أدوات وتطبيقات</h2>
+    <div class="tool-list">
+        <div class="tool">
+            <h3>Gradescope AI</h3>
+            <p>تصحيح آلي للامتحانات مع تقارير تحليلية.</p>
+            <a class="btn" href="https://gradescope.com" target="_blank">جرب الآن</a>
+        </div>
+        <div class="tool">
+            <h3>Quillionz</h3>
+            <p>توليد أسئلة تلقائيّة من نصوصك التعليمية.</p>
+            <a class="btn" href="https://quillionz.com" target="_blank">جرب الآن</a>
+        </div>
+        <div class="tool">
+            <h3>ChatGPT (Education Mode)</h3>
+            <p>مساعد رقمي للطلاب والمعلمين.</p>
+            <a class="btn" href="https://chat.openai.com" target="_blank">افتح ChatGPT</a>
+        </div>
+    </div>
+</section>
+
+<!-- الدورات التدريبية -->
+<section id="courses">
+    <h2>الدورات التدريبية</h2>
+    <div class="courses-grid">
+        <article class="course">
+            <h3>أساسيات الذكاء الاصطناعي في التعليم</h3>
+            <p>دورة مجانية مقدّمة بالتعاون مع جامعة الملك سعود، تتضمّن ٤ ساعات فيديو تفاعلي.</p>
+            <a class="btn" href="#">ابدأ التعلم</a>
+        </article>
+        <article class="course">
+            <h3>تصميم تعلم شخصي باستخدام ChatGPT</h3>
+            <p>ورقة عمل تفاعلية لمدة أسبوعين مع شهادة حضور.</p>
+            <a class="btn" href="#">سجّل الآن</a>
+        </article>
+    </div>
+</section>
+
+<!-- تواصل معنا -->
+<section id="contact">
+    <h2>تواصل معنا</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="الاسم الكامل" required/>
+        <input type="email" placeholder="البريد الإلكتروني" required/>
+        <textarea placeholder="رسالتك..." required></textarea>
+        <button type="submit">إرسال</button>
+    </form>
+    <div class="social">
+        <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+</section>
+
+<!-- النشرة البريدية -->
+<div id="newsletter">
+    <h3>اشترك في نشرتنا البريدية</h3>
+    <form id="newsForm">
+        <input type="email" placeholder="بريدك الإلكتروني" required/>
+        <button type="submit">اشتراك</button>
+    </form>
+</div>
+
+<!-- شريط سفلي -->
+<footer>
+    <p>&copy; 2025 الذكاء الاصطناعي في التعليم. جميع الحقوق محفوظة.</p>
+    <a href="#">سياسة الخصوصية</a>
+</footer>
+
+<script src="script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
